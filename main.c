@@ -20,6 +20,7 @@
 #define EnterCriticalSection(x)
 #define ExitCriticalSection()
 
+#include "platform/native_android.h"
 #include "platform/native_assets.h"
 #include "platform/native_log.h"
 #include "platform/native_memory.h"
@@ -39,6 +40,7 @@
 
 #include "platform/native_disc_image.c"
 #include "platform/native_assets.c"
+
 #include "platform/native_audio.c"
 #include "platform/native_memory.c"
 #include "platform/native_checkpoint.c"
@@ -49,6 +51,7 @@
 #include "platform/native_gte_core.c"
 #include "platform/native_glad.c"
 #include "platform/native_input.c"
+#include "platform/native_android.c"
 #include "platform/native_inline_c.c"
 #include "platform/native_libapi.c"
 #include "platform/native_libetc.c"
